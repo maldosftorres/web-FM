@@ -1,0 +1,536 @@
+.contenedor {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.fuente-1 {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+.fuente-2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #121212;
+    align-items: center;
+    position: fixed;
+}
+
+.img {
+    width: 60px;
+}
+
+.navegacion a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+
+.navegacion a:hover {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    transition: .3s ease-in-out;
+}
+
+.presentacion {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.presentacion i {
+    text-align: center;
+    margin-right: 2.5rem;
+}
+
+.presentacion img {
+    width: 600px;
+}
+
+.f-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.f-down {
+    color: #fff;
+    font-size: 50px;
+}
+
+.menu {
+    display: none;
+}
+
+
+/*FIN HEADER Y PRESENTACION*/
+
+.separador {
+    height: 2px;
+    max-width: 200px;
+    margin: 2px auto;
+    border-top: 1px solid #1877f2;
+    border-bottom: 1px solid #1877f2;
+}
+
+.t-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px auto;
+    color: #fff;
+}
+
+.letra-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* SECCIONES */
+
+#acerca {
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100vh;
+}
+
+.organizacion {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-bottom: 5rem;
+}
+
+.texto {
+    width: 600px;
+}
+
+.miFoto {
+    width: 600px;
+}
+
+.miFoto img {
+    width: 350px;
+    border-radius: .75rem;
+}
+
+.redes {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.face {
+    color: #fff;
+    /*#1877f2 azul*/
+}
+
+.face:hover {
+    transition: .3s ease-in-out;
+    color: #000;
+}
+
+.insta {
+    color: #fff;
+    /*rosa ce2f84*/
+}
+
+.insta:hover {
+    transition: .3s ease-in-out;
+    color: #000;
+}
+
+.linke {
+    color: #fff;
+    /*1877f2 azul*/
+}
+
+.linke:hover {
+    transition: .3s ease-in-out;
+    color: #000;
+}
+
+
+/*FIN ACERCA DE MI*/
+
+.parallax {
+    background-image: url("../img/fondos/escritorio1.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.t-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 5px auto;
+    text-transform: uppercase;
+    color: #333;
+}
+
+#proyectos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.subtitulo {
+    text-align: left !important;
+}
+
+.img-proyectos img {
+    border-radius: .30rem;
+    padding-bottom: 40px;
+    margin-right: 3rem;
+}
+
+.p-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    color: #000;
+}
+
+
+/*FIN PROYECTOS Y TRABAJO*/
+
+#certificados {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100vh;
+}
+
+#certificados .t-1 {
+    color: #fff;
+}
+
+.parallax2 {
+    background-image: url("../img/neb3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.secciones {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.items {
+    width: 450px;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-radius: 25px;
+    color: #222;
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px 5px rgba(34, 34, 34, .75);
+    -moz-box-shadow: 0 0 30px 5px rgba(34, 34, 34, .75);
+    box-shadow: 0 0 30px 5px rgba(34, 34, 34, .75);
+}
+
+.items h3 {
+    margin: 0;
+}
+
+
+/*FIN CERTIFICADOS*/
+
+#contacto {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.secciones-contacto {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.f-contacto {
+    font-family: 'Raleway', sans-serif;
+}
+
+.formulario-contacto {
+    width: 500px;
+}
+
+.form-control {
+    padding-right: 10px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+
+/*FIN CONTACTO*/
+
+.titulo-blog {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 5rem;
+}
+
+
+/*FIN BLOG*/
+
+
+/*MEDIA QUERY*/
+
+@media (max-width:968px) {
+    /*HEADER*/
+    .img-responsive {
+        width: 100%;
+    }
+    .navegacion {
+        display: none;
+    }
+    .img {
+        width: 50px;
+    }
+    .img2 {
+        width: 100%;
+    }
+    .site-header {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: #121212;
+        align-items: center;
+        position: fixed;
+    }
+    .menu {
+        display: none;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: #121212;
+    }
+    .menu i {
+        color: #fff;
+        font-size: 50px;
+    }
+    .m-f1 {
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        font-size: 20px;
+    }
+    .f-1 {
+        font-size: 15px;
+    }
+    /*SECCIONES*/
+    .contenedor {
+        margin-top: 43rem;
+        max-width: 568px;
+        text-align: center;
+        margin: auto;
+    }
+    .separador {
+        height: 2px;
+        max-width: 100px;
+        margin: 2px auto;
+        border-top: 1px solid #1877f2;
+        border-bottom: 1px solid #1877f2;
+    }
+    .letra-1 {
+        font-size: 13px;
+        padding-top: 5px;
+        color: #fff;
+    }
+    .t-2 {
+        font-size: 35px;
+    }
+    .t-1 {
+        font-size: 35px;
+    }
+    .p-2 {
+        color: #000;
+        font-size: 13px;
+    }
+    .organizacion {
+        flex-direction: column;
+    }
+    .texto {
+        max-width: 568px;
+        margin: 0 auto;
+    }
+    .miFoto img {
+        display: none;
+    }
+    .img-p {
+        width: 100%;
+    }
+    .secciones {
+        flex-direction: column;
+    }
+    #udemy-item {
+        margin-bottom: 30px;
+    }
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media (max-width:568px) {
+    /*HEADER*/
+    .img-responsive {
+        width: 100%;
+    }
+    .navegacion {
+        display: none;
+    }
+    .img {
+        width: 50px;
+    }
+    .img2 {
+        width: 100%;
+    }
+    .site-header {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: #121212;
+        align-items: center;
+        position: fixed;
+    }
+    .logo a {
+        text-align: center;
+    }
+    .menu {
+        display: none;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        background-color: #121212;
+    }
+    .menu i {
+        color: #fff;
+        font-size: 50px;
+    }
+    .m-f1 {
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        font-size: 17px;
+    }
+    .f-1 {
+        font-size: 12px;
+    }
+    /*SECCIONES*/
+    .contenedor {
+        margin-top: 43rem;
+        max-width: 368px;
+        text-align: center;
+        margin: auto;
+    }
+    .separador {
+        height: 2px;
+        max-width: 100px;
+        margin: 2px auto;
+        border-top: 1px solid #1877f2;
+        border-bottom: 1px solid #1877f2;
+    }
+    .letra-1 {
+        font-size: 11px;
+        padding-top: 5px;
+        color: #fff;
+    }
+    .t-2 {
+        font-size: 25px;
+    }
+    .t-1 {
+        font-size: 25px;
+    }
+    .p-2 {
+        color: #000;
+        font-size: 11px;
+    }
+    .organizacion {
+        flex-direction: column;
+    }
+    .texto {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .miFoto img {
+        display: none;
+    }
+    .logoIT {
+        width: 150px;
+    }
+    .parallax {
+        background-image: url("../img/fondos/escritorio1.jpeg");
+        min-height: 500px;
+        background-attachment: local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-p {
+        width: 100%;
+    }
+    .secciones {
+        flex-direction: column;
+    }
+    .items {
+        width: 350px;
+    }
+    .parallax2 {
+        background-image: url("../img/neb3.jpg");
+        min-height: 500px;
+        background-attachment: local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    #udemy-item {
+        margin-bottom: 30px;
+    }
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media(min-width:992px) {
+    .secciones {
+        background-attachment: scroll;
+    }
+    .items {
+        margin-bottom: 0;
+    }
+    .items.featured-first:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media(min-width:1025px) {
+    .certificados {
+        background-attachment: fixed;
+    }
+}
