@@ -80,23 +80,24 @@
     display: none;
 }
 
-
-/*FIN HEADER Y PRESENTACION*/
-
-.separador {
-    height: 2px;
-    max-width: 200px;
-    margin: 2px auto;
-    border-top: 1px solid #1877f2;
-    border-bottom: 1px solid #1877f2;
+.iarrow {
+    color: #0fbd7e;
 }
+/*FIN HEADER Y PRESENTACION*/
+ hr {
+    border: 0; 
+    height: 0; 
+    width: 10%;
+    box-shadow: 0 0px 2px 1px #0fbd7e;
+} 
+
 
 .t-2 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin: 5px auto;
-    color: #fff;
+    color: #0fbd7e;
 }
 
 .letra-1 {
@@ -104,7 +105,7 @@
     font-size: 15px;
     text-align: justify;
     font-weight: 500;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -113,7 +114,6 @@
 #acerca {
     background-color: #fff;
     padding-top: 60px;
-    padding-bottom: 60px;
     height: 100vh;
 }
 
@@ -125,16 +125,17 @@
 }
 
 .texto {
-    width: 600px;
+    width: 50%;
 }
 
 .miFoto {
-    width: 600px;
+    width: 50%;
 }
 
+
 .miFoto img {
-    width: 350px;
-    border-radius: .75rem;
+    width: 200px;
+    border-radius: 100%;
 }
 
 .redes {
@@ -175,22 +176,13 @@
 
 /*FIN ACERCA DE MI*/
 
-.parallax {
-    background-image: url("../img/fondos/escritorio1.jpeg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .t-1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 900;
     margin: 5px auto;
     text-transform: uppercase;
-    color: #333;
+    color: #0fbd7e;
 }
 
 .p-2 {
@@ -198,7 +190,7 @@
     font-size: 15px;
     text-align: justify;
     font-weight: 500;
-    color: #000;
+    color: #0fbd7e;
 }
 
 
