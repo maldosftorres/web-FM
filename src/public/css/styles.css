@@ -18,19 +18,23 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #121212;
+    background-color: #fff;
     align-items: center;
     position: fixed;
+    z-index: 1;
+    padding: 5px;
+    /* border-color: #0fbd7e;
+    border-bottom: 1px solid #0fbd7e; */
 }
 
 .img {
-    width: 60px;
+    width: 40px;
 }
 
 .navegacion a {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    color: #fff;
+    color: #0fbd7e;
     padding: 15px;
 }
 
@@ -42,7 +46,7 @@
 }
 
 .presentacion {
-    background-color: #121212;
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -53,16 +57,18 @@
 .presentacion i {
     text-align: center;
     margin-right: 2.5rem;
+    color:#0fbd7e;
 }
 
 .presentacion img {
-    width: 600px;
+    margin-top: 60px;
+    width: 400px;
 }
 
 .f-1 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #0fbd7e;
 }
 
 .f-down {
