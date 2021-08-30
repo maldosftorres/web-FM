@@ -194,11 +194,24 @@
     color: #000;
 }
 
-.skills img {
-    width: 60px;
-}
+
 .skill {
+    width: 60px;
     margin:10px;
+}
+
+.box-container {
+    box-shadow: rgb(153, 153, 153) 2px 2px 5px;
+}
+
+.link-cv{
+    border-radius: .75rem;
+    width: 30%;
+}
+
+
+.link-cv:hover{
+    box-shadow: rgb(153, 153, 153) 2px 2px 5px;
 }
 
 
