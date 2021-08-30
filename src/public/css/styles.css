@@ -21,6 +21,23 @@
 }
 
 
+.t-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px auto;
+    color: #11998e;
+}
+
+.letra-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    color: #000;
+}
+
+
 .t-1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -37,7 +54,7 @@
     font-weight: 500;
     color: #11998e;
 }
-.p-2 {
+.p-1 {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     text-align: justify;
@@ -112,24 +129,6 @@
     box-shadow: 0 0px 2px 1px #11998e;
 } 
 
-
-.t-2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    margin: 5px auto;
-    color: #11998e;
-}
-
-.letra-1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    text-align: justify;
-    font-weight: 500;
-    color: #000;
-}
-
-
 /* SECCIONES */
 
 #acerca {
@@ -145,11 +144,11 @@
 }
 
 .texto {
-    width: 50%;
+     width: 55%; 
 }
 
 .miFoto {
-    width: 50%;
+     width: 45%; 
 }
 
 
