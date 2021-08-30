@@ -14,6 +14,36 @@
     color: #fff;
 }
 
+.f-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #11998e;
+}
+
+
+.t-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 5px auto;
+    text-transform: uppercase;
+    color: #11998e;
+}
+
+.p-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    color: #11998e;
+}
+.p-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: #000;
+}
+
 .site-header {
     display: flex;
     justify-content: space-around;
@@ -65,16 +95,6 @@
     width: 400px;
 }
 
-.f-1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: #11998e;
-}
-
-.f-down {
-    color: #fff;
-    font-size: 50px;
-}
 
 .menu {
     display: none;
@@ -82,6 +102,7 @@
 
 .iarrow {
     color: #11998e;
+    font-size: 50px;
 }
 /*FIN HEADER Y PRESENTACION*/
  hr {
@@ -173,58 +194,26 @@
     color: #000;
 }
 
+.skills img {
+    width: 60px;
+}
+.skill {
+    margin:10px;
+}
+
+
 
 /*FIN ACERCA DE MI*/
 
-.t-1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    font-weight: 900;
-    margin: 5px auto;
-    text-transform: uppercase;
-    color: #11998e;
-}
-
-.p-2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    text-align: justify;
-    font-weight: 500;
-    color: #11998e;
-}
 
 
-/*FIN PROYECTOS Y TRABAJO*/
-
-
-#contacto {
+#proyectos {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.secciones-contacto {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-}
-
-.f-contacto {
-    font-family: 'Raleway', sans-serif;
-}
-
-.formulario-contacto {
-    width: 500px;
-}
-
-.form-control {
-    padding-right: 10px;
-}
-
-.form-group {
-    text-align: left;
-}
 
 
-/*FIN CONTACTO*/
+/*FIN PROYECTOS*/
 
 
