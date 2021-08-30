@@ -120,7 +120,6 @@
 .organizacion {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
     margin-bottom: 5rem;
 }
 
@@ -136,15 +135,16 @@
 .miFoto img {
     width: 200px;
     border-radius: 5rem 5rem 25rem 25rem;
+    margin-bottom: 20px;
 }
 
 .redes {
-    font-size: 35px;
+    font-size: 20px;
     margin-right: 10px;
 }
 
 .face {
-    color: #fff;
+    color: #11998e;
     /*#1877f2 azul*/
 }
 
@@ -154,7 +154,7 @@
 }
 
 .insta {
-    color: #fff;
+    color: #11998e;
     /*rosa ce2f84*/
 }
 
@@ -164,7 +164,7 @@
 }
 
 .linke {
-    color: #fff;
+    color: #11998e;
     /*1877f2 azul*/
 }
 
